@@ -17,7 +17,7 @@ JSON, YAML, and even standard TOON waste tokens on delimiters and redundant keys
 | Feature | JSON | Standard TOON | **PROTOON** |
 | :--- | :--- | :--- | :--- |
 | **Delimiters** | `"{},[]` (Heavy) | `[]{}` (Moderate) | **None (Whitespace/Pipe)** |
-| **Separators** | `,` (Sticky*) | `,` | **`|` (Clean Split)** |
+| **Separators** | `,` (Sticky*) | `,` | **`** |` (Clean Split)** |
 | **Booleans** | `true` (1 token) | `true` | **`+` (1 token)** |
 | **Nulls** | `null` (1 token) | `null` | **`~` (1 token)** |
 | **Arrays** | Repeated Keys | `items[3]` (Pre-calc required) | **`$` (Streaming Friendly)** |
